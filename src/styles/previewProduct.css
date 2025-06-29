@@ -1,0 +1,78 @@
+.previewWrapper {
+    padding: 30px;
+}
+
+.product model-viewer {
+    width: 100%;
+    height: 90vh;
+}
+
+.detail-product {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 90vh;
+}
+
+.detail-product .fa-arrow-left {
+    font-size: 1.6em;
+    padding: 20px 20px;
+    color: black;
+}
+
+.card-detail-product {
+    padding: 20px;
+}
+
+.card-detail-product .card-body {
+    margin-top: 60px;
+}
+
+.card-detail-product .card-body .pick-color {
+    display: flex;
+    gap: 5px;
+}
+
+.card-detail-product .card-body .pick-color div {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.card-detail-product .card-body .pick-color .color-1 {
+    background-color: rgb(55, 163, 102);
+}
+
+.card-detail-product .card-body .pick-color .color-2 {
+    background-color: rgb(9, 9, 66);
+}
+
+.card-detail-product .card-body .pick-color .color-3 {
+    background-color: rgb(240, 163, 176);
+}
+
+@media(max-width: 600px) {
+    .product model-viewer {
+        height: 50vh;
+    }
+
+    .detail-product {
+        height: 65vh;
+    }
+
+    .detail-product .card-body {
+        margin-top: -20px;
+    }
+
+    .card-title {
+        font-size: 1.5em;
+    }
+
+    .card-text {
+        font-size: .9em;
+    }
+
+    .card-detail-product .card-body .pick-color div {
+        width: 30px;
+        height: 30px;
+    }
+}
