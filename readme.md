@@ -36,3 +36,6 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan proyek secara lokal di komp
 1. **Clone repositori ini**
    ```bash
    git clone https://github.com/MhmmadArul/digihub-ecommerce-web.git
+
+
+  https://mhmmadarul.github.io/digihub-ecommerce/
